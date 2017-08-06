@@ -1,0 +1,24 @@
+{
+  "name": "useless-things",
+  "version": "0.0.1",
+  "description": "A collection of things that shouldn't exist for React Native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GantMan/useless-things.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "react"
+  ],
+  "author": "Gant Laborde",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GantMan/useless-things/issues"
+  },
+  "homepage": "https://github.com/GantMan/useless-things#readme"
+}

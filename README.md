@@ -5,4 +5,5 @@
 * [sinwave](https://github.com/GantMan/WaveFun)
 * blink tag
 * marquee tag
+* terrible name genertor
 * `... and so much more`

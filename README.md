@@ -6,4 +6,6 @@
 * blink tag
 * marquee tag
 * terrible name genertor
-* `... and so much more`
+* tiled background
+* konami code event
+`... and so much more`

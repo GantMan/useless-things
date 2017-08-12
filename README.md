@@ -28,8 +28,9 @@ But better than the [old blink tag](http://www.montulli.org/theoriginofthe%3Cbli
   </Blink>
 ```
 **Blink props:**
+
 |   Prop   |  Type  |            Default            |           Description           |
-| -------- | ------ | ----------------------------- | ------------------------------- |
+| ---------| ------ | ----------------------------- | ------------------------------- |
 | duration | number | `(400)`                       | Milliseconds between each blink |
 | style    | Object | `({width: 200, height: 100})` | Style of the blink container    |
 
@@ -59,6 +60,7 @@ Advanced properties
   />
 ```
 **SinWave props:**
+
 |    Prop    |    Type    | Default |                    Description                    |
 | ---------- | ---------- | ------- | ------------------------------------------------- |
 | `flat`     | boolean    | `false` | Changes dots to lines                             |

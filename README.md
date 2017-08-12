@@ -1,5 +1,4 @@
 ![useless things](./_art/useless-things.png)
-# Storage space of things that should not be
 
 ## Comes With:
 * [\<Blink\>](#blink-tag)

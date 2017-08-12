@@ -1,15 +1,17 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
-import { SinWave } from 'useless-things'
+import { SinWave, Blink } from 'useless-things'
 
 export default class App extends React.Component {
-  render() {
+  render () {
     return (
       <View style={styles.container}>
         <Text style={styles.title}>Examples of Useless Things</Text>
 
         <Text style={styles.thing}>SinWave</Text>
-        <SinWave/>
+        <SinWave />
+        <Text style={styles.thing}>Blink Tag</Text>
+        <Blink>Hey check out the blink!</Blink>
       </View>
     );
   }
@@ -20,7 +22,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#333',
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'center'
   },
   title: {
     fontSize: 20,

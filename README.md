@@ -8,7 +8,7 @@ How often have you thought, 'Wow, this app needs dots that move"?  Well now you 
 ```js
 import { SinWave } from 'useless-things'
 ...
-  <SinWave>
+  <SinWave />
 ...
   <SinWave
     flat
@@ -27,10 +27,34 @@ SinWave props include the following:
 * period `number (2000)`: Milliseconds for one single oscillation
 * style `StyleSheet ({})`: Additional styles
 
+
+### Blink Tag
+Nostalgic for the 90s? Wish you could still have you own Geocities page? Well...
+You can't...
+But you can recreate some of that magic and annoyance with the Blink tag!
+```js
+import { Blink } from 'useless-things'
+import { View, Image } from 'react-native'
+...
+  <Blink>Hey look at me blinking!</Blink>
+...
+  <Blink style={{ backgroundColor: 'red }} duration={300}>
+    <View />
+  </Blink>
+...
+  <Blink>
+    <Image
+      style={{width: 200, aspectRatio: 1}}
+      source={{uri: 'https://static.pexels.com/photos/54632/cat-animal-eyes-grey-54632.jpeg'}}
+    />
+  </Blink>
+```
+Blink props include the following:
+* duration `number (400)`: Milliseconds between each blink
+* style `Object ({width: 200, height: 100})`: Style of the blink container
 ## Incoming:
-* blink tag
 * marquee tag
-* terrible name genertor
+* terrible name generator
 * tiled background
 * konami code event
 `... and so much more`

@@ -11,9 +11,14 @@
     "url": "git+https://github.com/GantMan/useless-things.git"
   },
   "keywords": [
-    "react",
+    "react native",
     "native",
-    "react"
+    "react",
+    "javascript"
+  ],
+  "files": [
+    "index.js",
+    "./lib/*"
   ],
   "author": "Gant Laborde",
   "license": "MIT",

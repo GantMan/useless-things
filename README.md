@@ -1,7 +1,7 @@
 ![useless things](./_art/useless-things.png)
 
 ## Comes With:
-* [\<Blink\>](#blink-tag) - Yes this classic tag makes its comeback tour debut here.
+* [\<Blink\>](#blink-tag) - Yes this classic HTML tag has a comeback tour.
 * [\<SinWave\>](#sinwave) - It's not math, it's useless!
 
 ### Blink Tag

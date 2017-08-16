@@ -1,8 +1,8 @@
 ![useless things](./_art/useless-things.png)
 
 ## Comes With:
-* [\<Blink\>](#blink-tag)
-* [\<SinWave\>](#sinwave)
+* [\<Blink\>](#blink-tag) - Yes this classic tag makes its comeback tour debut here.
+* [\<SinWave\>](#sinwave) - It's not math, it's useless!
 
 ### Blink Tag
 Nostalgic for the 90s? Wish you could still have you own Geocities page? Well...

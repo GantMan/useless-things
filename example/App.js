@@ -8,10 +8,10 @@ export default class App extends React.Component {
       <View style={styles.container}>
         <Text style={styles.title}>Examples of Useless Things</Text>
 
-        <Text style={styles.thing}>SinWave</Text>
+        <Text style={[styles.thing, {paddingBottom: 30}]}>SinWave</Text>
         <SinWave />
         <Text style={styles.thing}>Blink Tag</Text>
-        <Blink>Hey check out the blink!</Blink>
+        <Blink style={{color: 'white'}}>Look at this blink!</Blink>
       </View>
     );
   }
@@ -28,11 +28,10 @@ const styles = StyleSheet.create({
     fontSize: 20,
     fontWeight: 'bold',
     color: 'red',
-    padding: 20
   },
   thing: {
     fontSize: 18,
     color: '#fff',
-    paddingBottom: 30
+    paddingTop: 40
   }
 })

@@ -1,9 +1,9 @@
 import SinWave from './lib/sinWave'
 import Blink from './lib/blink'
-import TerribleNames from './lib/terribleNames'
+import TerribleName from './lib/terribleName'
 
 export {
   SinWave,
   Blink,
-  TerribleNames
+  TerribleName
 }

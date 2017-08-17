@@ -2,7 +2,7 @@
 
 ## Comes With:
 * [\<Blink\>](#blink-tag) - Yes this classic HTML tag has a comeback tour, & it starts here.
-* [terribleNames()](#terrible-names) - Need to suggest a name for that uploaded file?  How about `carnival-joining-perverted-grapes.png`?
+* [TerribleName()](#terrible-names) - Need to suggest a name for that uploaded file?  How about `carnival-joining-perverted-grapes.png`?
 * [\<SinWave\>](#sinwave) - It's not math... it's useless!
 
 ### Blink Tag
@@ -39,15 +39,15 @@ Generate friendly names like `haunted effervescent twerk` for your app!  Use it 
 
 You can also just loop the output for some super classy _Lorem Ipsum_.
 
-With a friendly `terribleName` function, your customer service satisfaction can be unleashed!
+With a friendly `TerribleName` function, your customer service satisfaction can be unleashed!
 
 ```js
-import { terribleName } from 'useless-things'
+import { TerribleName } from 'useless-things'
 
-const basic = terribleName()
+const basic = TerribleName()
 // result: pulsing confused fetish
 
-const newDelimiter = terribleName('-')
+const newDelimiter = TerribleName('-')
 // result: acrid-haunted-furry
 ```
 > 🚨 **Pull Request Alert:** Only the most versatile yet terrible adjectives/nouns will be accepted.

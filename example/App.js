@@ -1,6 +1,6 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
-import { SinWave, Blink } from 'useless-things'
+import { SinWave, Blink, TerribleNames } from 'useless-things'
 
 export default class App extends React.Component {
   render () {
@@ -12,6 +12,13 @@ export default class App extends React.Component {
         <SinWave />
         <Text style={styles.thing}>Blink Tag</Text>
         <Blink style={{color: 'white'}}>Look at this blink!</Blink>
+
+        <Text style={styles.thing}>Terrible Name Generator</Text>
+        <Text style={styles.text}>
+          {TerribleNames() + '\n'}
+          {TerribleNames() + '\n'}
+          {TerribleNames() + '\n'}
+        </Text>
       </View>
     );
   }
@@ -33,5 +40,8 @@ const styles = StyleSheet.create({
     fontSize: 18,
     color: '#fff',
     paddingTop: 40
+  },
+  text: {
+    color: '#fff'
   }
 })

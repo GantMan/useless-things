@@ -1,8 +1,9 @@
 ![useless things](./_art/useless-things.png)
 
 ## Comes With:
-* [\<Blink\>](#blink-tag) - Yes this classic HTML tag has a comeback tour.
-* [\<SinWave\>](#sinwave) - It's not math, it's useless!
+* [\<Blink\>](#blink-tag) - Yes this classic HTML tag has a comeback tour, & it starts here.
+* [TerribleName()](#terrible-names) - Need to suggest a name for that uploaded file?  How about `carnival-joining-perverted-grapes.png`?
+* [\<SinWave\>](#sinwave) - It's not math... it's useless!
 
 ### Blink Tag
 Nostalgic for the 90s? Wish you could still have you own Geocities page? Well...
@@ -33,8 +34,28 @@ But better than the [old blink tag](http://www.montulli.org/theoriginofthe%3Cbli
 | duration | number | `(400)`                       | Milliseconds between each blink |
 | style    | Object | `({width: 200, height: 100})` | Style of the blink container    |
 
+### Terrible Names
+Generate friendly names like `haunted effervescent twerk` for your app!  Use it for usernames, rooms, or whenever you need to assault your users with a moniker!
+
+You can also just loop the output for some super classy _Lorem Ipsum_.
+
+With a friendly `TerribleName` function, your customer service satisfaction can be unleashed!
+
+```js
+import { TerribleName } from 'useless-things'
+
+const basic = TerribleName()
+// result: pulsing confused fetish
+
+const newDelimiter = TerribleName('-')
+// result: acrid-haunted-furry
+```
+> 🚨 **Pull Request Alert:** Only the most versatile yet terrible adjectives/nouns will be accepted.
+
+This function takes one parameter; the delimiter for the resulting words.  Default value is a space.
+
 ### SinWave
-You say it at least once per ,
+You say it at least once per project,
 > _"This app needs dots that move n stuff"?_
 
 Well now you can quickly and easily add sinusoidal dots to any application with ease.
@@ -71,7 +92,6 @@ Advanced properties
 
 ## Incoming:
 * marquee tag
-* terrible name generator
 * tiled background
 * konami code event
 

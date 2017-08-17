@@ -92,7 +92,6 @@ Advanced properties
 
 ## Incoming:
 * marquee tag
-* terrible name generator
 * tiled background
 * konami code event
 

@@ -2,7 +2,7 @@
 
 ## Comes With:
 * [\<Blink\>](#blink-tag) - Yes this classic HTML tag has a comeback tour, & it starts here.
-* [TerribleName()](#terrible-names) - Need to suggest a name for that uploaded file?  How about `carnival-joining-perverted-grapes.png`?
+* [TerribleName()](#terrible-names) - Need to name that uploaded file?  How about `carnival-joining-perverted-grapes.png`?
 * [\<SinWave\>](#sinwave) - It's not math... it's useless!
 
 ### Blink Tag
@@ -91,6 +91,7 @@ Advanced properties
 | `style`    | StyleSheet | `null`  | Additional styles                                 |
 
 ## Incoming:
+* beveled buttons
 * marquee tag
 * tiled background
 * konami code event

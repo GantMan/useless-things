@@ -17,6 +17,7 @@ import { View, Image } from 'react-native'
   <Blink>Hey look at me blinking!</Blink>
 
 ```
+![blink](./_art/blink.gif)
 
 But better than the [old blink tag](http://www.montulli.org/theoriginofthe%3Cblink%3Etag)!  You can blink anything!
 ```js
@@ -27,6 +28,7 @@ But better than the [old blink tag](http://www.montulli.org/theoriginofthe%3Cbli
     />
   </Blink>
 ```
+![blink image](./_art/blink2.gif)
 **Blink props:**
 
 |   Prop   |  Type  |            Default            |           Description           |
@@ -50,6 +52,8 @@ const basic = TerribleName()
 const newDelimiter = TerribleName('-')
 // result: acrid-haunted-furry
 ```
+![terrible names](./_art/tn.gif)
+
 > 🚨 **Pull Request Alert:** Only the most versatile yet terrible adjectives/nouns will be accepted.
 
 This function takes one parameter; the delimiter for the resulting words.  Default value is a space.
@@ -68,6 +72,8 @@ import { SinWave } from 'useless-things'
 
   <SinWave />
 ```
+![sine](./_art/sin.gif)
+
 Advanced properties
 ```js
   <SinWave
@@ -79,6 +85,8 @@ Advanced properties
     style={{backgroundColor: '#feffff'}}
   />
 ```
+![sinwave fade](./_art/sin2.gif)
+
 **SinWave props:**
 
 |    Prop    |    Type    | Default |                    Description                    |

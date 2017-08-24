@@ -6,12 +6,12 @@ export default class App extends React.Component {
   render () {
     return (
       <View style={styles.container}>
-        <Text style={styles.title}>Examples of SineWave</Text>
+        <Text style={styles.title}>Examples of SinWave</Text>
 
-        <Text style={[styles.thing, {paddingBottom: 30}]}>SinWave default</Text>
+        <Text style={styles.thing}>SinWave default</Text>
         <SinWave />
 
-        <Text style={[styles.thing, {paddingBottom: 30}]}>SinWave with added props</Text>
+        <Text style={styles.thing}>SinWave with added props</Text>
         <SinWave
           flat
           fade

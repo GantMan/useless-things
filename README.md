@@ -20,10 +20,10 @@ import { View, Image } from 'react-native'
 
 But better than the [old blink tag](http://www.montulli.org/theoriginofthe%3Cblink%3Etag)!  You can blink anything!
 ```js
-  <Blink>
+  <Blink duration={1000}>
     <Image
       style={{width: 200, aspectRatio: 1}}
-      source={{uri: 'https://static.pexels.com/photos/54632/cat-animal-eyes-grey-54632.jpeg'}}
+      source={{uri: 'http://i.imgur.com/HLQp7FV.png'}}
     />
   </Blink>
 ```

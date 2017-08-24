@@ -9,16 +9,16 @@ export default class App extends React.Component {
       <View style={styles.container}>
         <Text style={styles.title}>Examples of Useless Things</Text>
 
-        <TouchableOpacity onPress={() => navigate('BlinkScreen')}>
-          <Text style={[styles.thing, {paddingBottom: 30}]}>Blink Examples</Text>
+        <TouchableOpacity style={styles.touchy} onPress={() => navigate('BlinkScreen')}>
+          <Text style={styles.thing}>Blink Examples</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity onPress={() => navigate('TerribleNameScreen')}>
-          <Text style={[styles.thing, {paddingBottom: 30}]}>Terrible Name Examples</Text>
+        <TouchableOpacity style={styles.touchy} onPress={() => navigate('TerribleNameScreen')}>
+          <Text style={styles.thing}>Terrible Name Examples</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity onPress={() => navigate('SinWaveScreen')}>
-          <Text style={[styles.thing, {paddingBottom: 30}]}>SinWave Examples</Text>
+        <TouchableOpacity style={styles.touchy} onPress={() => navigate('SinWaveScreen')}>
+          <Text style={styles.thing}>SinWave Examples</Text>
         </TouchableOpacity>
       </View>
     )
@@ -40,7 +40,14 @@ const styles = StyleSheet.create({
   thing: {
     fontSize: 18,
     color: '#fff',
-    paddingTop: 40
+  },
+  touchy: {
+    marginTop: 10,
+    padding: 10,
+    backgroundColor: 'rgba(0,0,0,0.3)',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 5
   },
   text: {
     color: '#ccc'

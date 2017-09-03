@@ -98,11 +98,12 @@ Advanced properties
 | `period`   | number     | `2000`  | Milliseconds for one single oscillation           |
 | `style`    | StyleSheet | `null`  | Additional styles                                 |
 
-## Incoming:
+## Incoming Features:
 * beveled buttons
 * marquee tag
 * tiled background
 * konami code event
+* [Trump sort](https://medium.com/@gantlaborde/trump-sort-a-new-sorting-algorithm-b37b1133356a)
 
 `... and so much more`
 

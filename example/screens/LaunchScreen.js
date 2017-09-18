@@ -20,6 +20,10 @@ export default class App extends React.Component {
         <TouchableOpacity style={styles.touchy} onPress={() => navigate('SinWaveScreen')}>
           <Text style={styles.thing}>SinWave Examples</Text>
         </TouchableOpacity>
+
+        <TouchableOpacity style={styles.touchy} onPress={() => navigate('RainbowTextScreen')}>
+          <Text style={styles.thing}>RainbowText Examples</Text>
+        </TouchableOpacity>
       </View>
     )
   }

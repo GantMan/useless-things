@@ -98,6 +98,28 @@ Advanced properties
 | `period`   | number     | `2000`  | Milliseconds for one single oscillation           |
 | `style`    | StyleSheet | `null`  | Additional styles                                 |
 
+### RainbowText
+Your client tells you all the time,
+> _"Doesn't it lack a little bit of color"?_
+
+He wants color, give him color!
+
+Basic usage:
+```js
+import { RainbowText } from 'useless-things'
+
+...
+
+  <RainbowText>Look at this rainbow!</RainbowText>
+```
+![rainbow-text](./_art/rainbowswag.gif)
+
+**RainbowText props:**
+
+|    Prop    |    Type    | Default |                    Description                    |
+| ---------- | ---------- | ------- | ------------------------------------------------- |
+| `style`    | StyleSheet | `null`  | Additional Text styles (color WILL be overwritten)|
+
 ## Incoming Features:
 * beveled buttons
 * marquee tag

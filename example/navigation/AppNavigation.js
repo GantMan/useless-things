@@ -4,6 +4,7 @@ import SinWaveScreen from '../screens/SinWaveScreen'
 import BlinkScreen from '../screens/BlinkScreen'
 import TerribleNameScreen from '../screens/TerribleNameScreen'
 import RainbowTextScreen from '../screens/RainbowTextScreen'
+import TrumpSortScreen from '../screens/TrumpSortScreen'
 
 // Manifest of possible screens
 const PrimaryNav = StackNavigator({
@@ -11,7 +12,8 @@ const PrimaryNav = StackNavigator({
   SinWaveScreen: { screen: SinWaveScreen },
   BlinkScreen: { screen: BlinkScreen },
   TerribleNameScreen: { screen: TerribleNameScreen },
-  RainbowTextScreen: { screen: RainbowTextScreen }
+  RainbowTextScreen: { screen: RainbowTextScreen },
+  TrumpSortScreen: { screen: TrumpSortScreen }
 }, {
   // Default config for all screens
   initialRouteName: 'LaunchScreen',

@@ -1,6 +1,6 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
-import { SinWave, Blink, TerribleName } from 'useless-things'
+import { SinWave } from 'useless-things'
 
 export default class App extends React.Component {
   render () {

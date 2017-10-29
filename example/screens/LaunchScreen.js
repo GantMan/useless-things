@@ -1,6 +1,5 @@
 import React from 'react'
 import { StyleSheet, Text, View, TouchableOpacity } from 'react-native'
-import { SinWave, Blink, TerribleName } from 'useless-things'
 
 export default class App extends React.Component {
   render () {
@@ -23,6 +22,10 @@ export default class App extends React.Component {
 
         <TouchableOpacity style={styles.touchy} onPress={() => navigate('RainbowTextScreen')}>
           <Text style={styles.thing}>RainbowText Examples</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={styles.touchy} onPress={() => navigate('TrumpSortScreen')}>
+          <Text style={styles.thing}>TrumpSort Examples</Text>
         </TouchableOpacity>
       </View>
     )

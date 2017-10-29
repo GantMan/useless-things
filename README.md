@@ -4,6 +4,7 @@
 * [\<Blink\>](#blink-tag) - Yes this classic HTML tag has a comeback tour, & it starts here.
 * [TerribleName()](#terrible-names) - Need to name that uploaded file?  How about `carnival-joining-perverted-grapes.png`?
 * [\<SinWave\>](#sinwave) - It's not math... it's useless!
+* [\<RainbowText\>](#rainbowtext) - 🌈 🦄 🎉 ✍️
 
 ### Blink Tag
 Nostalgic for the 90s? Wish you could still have you own Geocities page? Well...

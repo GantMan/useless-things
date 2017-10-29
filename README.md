@@ -143,7 +143,7 @@ Check out that awesome wall we built to keep those numbers out!
 * tiled background
 * konami code event
 
-`... and so much more`
+[`... and so much more`](https://github.com/GantMan/useless-things/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
 
 
 ## To Run Example

@@ -5,6 +5,7 @@
 * [TerribleName()](#terrible-names) - Need to name that uploaded file?  How about `carnival-joining-perverted-grapes.png`?
 * [\<SinWave\>](#sinwave) - It's not math... it's useless!
 * [\<RainbowText\>](#rainbowtext) - 🌈 🦄 🎉 ✍️
+* [TrumpSort()](#trump-sort) - Make sorting great again
 
 ### Blink Tag
 Nostalgic for the 90s? Wish you could still have you own Geocities page? Well...
@@ -121,19 +122,33 @@ import { RainbowText } from 'useless-things'
 | ---------- | ---------- | ------- | ------------------------------------------------- |
 | `style`    | StyleSheet | `null`  | Additional Text styles (color WILL be overwritten)|
 
+### Trump Sort
+I know we're all wondering where all these foreign numbers are coming from.  How are we supposed to keep these arrays sorted?
+
+We've implemented a number form of [Trump Sort (more info here)](https://medium.com/@gantlaborde/trump-sort-a-new-sorting-algorithm-b37b1133356a), so you can rest your cheeto colored little hands.
+
+```js
+import { TrumpSort } from 'useless-things'
+
+const classism = TrumpSort([2,2,3,5,1,2,7,9,5,8])
+// result: [2, 2, 3, 5, 7, 9]
+```
+![terrible names](./_art/trump.gif)
+
+Check out that awesome wall we built to keep those numbers out!
+
 ## Incoming Features:
 * beveled buttons
 * marquee tag
 * tiled background
 * konami code event
-* [Trump sort](https://medium.com/@gantlaborde/trump-sort-a-new-sorting-algorithm-b37b1133356a)
 
 `... and so much more`
 
 
 ## To Run Example
 ```sh
-$ cd examples
+$ cd example
 $ yarn
 $ yarn ios
 ```

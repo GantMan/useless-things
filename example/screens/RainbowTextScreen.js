@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyleSheet, Text, View, Image } from 'react-native'
+import { StyleSheet, Text, View } from 'react-native'
 import { RainbowText } from 'useless-things'
 
 export default class RainbowTextScreen extends React.Component {

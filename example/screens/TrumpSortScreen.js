@@ -1,22 +1,26 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
-import { TerribleName } from 'useless-things'
+import { TrumpSort } from 'useless-things'
+
+const LENGTH = 15
+const randomArray = () => [...new Array(LENGTH)]
+  .map(() => Math.round(Math.random() * 99))
 
 export default class App extends React.Component {
   render () {
+    const currentArray = randomArray()
     return (
       <View style={styles.container}>
-        <Text style={styles.title}>Examples of Terrible Names</Text>
+        <Text style={styles.title}>Examples of Trump Sort</Text>
 
-        <Text style={styles.thing}>Terrible Name Generator</Text>
+        <Text style={styles.thing}>Trump Sort Random Array</Text>
         <Text style={styles.text}>
-          Random 1: {TerribleName() + '\n'}
-          Random 2: {TerribleName() + '\n'}
-          With Separator: {TerribleName('-') + '\n'}
+          Random Array: {'\n' + currentArray + '\n\n'}
+          Trump Sorted: {TrumpSort(currentArray) + '\n'}
         </Text>
 
         <Text style={[styles.title, {backgroundColor: 'rgba(0,0,0,0.4)'}]} onPress={() => this.forceUpdate()}>
-          GIVE ME MOAR!!!!
+          YUGE TRUMP SORT
         </Text>
       </View>
     )

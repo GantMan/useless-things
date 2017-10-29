@@ -148,7 +148,7 @@ Check out that awesome wall we built to keep those numbers out!
 
 ## To Run Example
 ```sh
-$ cd examples
+$ cd example
 $ yarn
 $ yarn ios
 ```
